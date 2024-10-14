@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Booking App</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: red;">Bookmyshow</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Stream</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Plays</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Activities</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-danger" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+     <div class="container mt-4">
+    <div id="movieCards" class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card" style="cursor: pointer">
+          <img
+            src="img/indian 2.jpg"
+            alt=""/>
+          <div class="card-body">
+            <h5 class="card-title">Indian 2</h5>
+            <p class="card-text">Action</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card" style="cursor: pointer">
+          <img
+            src="img/Demonte colony.jpg"
+            alt=""/>
+          <div class="card-body">
+            <h5 class="card-title">Demonte colony</h5>
+            <p class="card-text"> Horror</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card" style="cursor: pointer">
+          <img
+            src="img/vaazhai.jpg"
+            alt=""/>
+          <div class="card-body">
+            <h5 class="card-title">Vaazhai</h5>
+            <p class="card-text">Mystery</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card" style="cursor: pointer">
+          <img
+            src="img/g.jpg"
+            alt=""/>
+          <div class="card-body">
+            <h5 class="card-title">The Greatest of All Time </h5>
+            <p class="card-text">Thriller</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card" style="cursor: pointer">
+          <img
+            src="img/Vettaiyan.jpg"
+            alt=""/>
+          <div class="card-body">
+            <h5 class="card-title">Vettaiyan</h5>
+            <p class="card-text">Action</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card" style="cursor: pointer">
+          <img
+            src="img/lubber panthu.jpg"
+            alt=""/>
+          <div class="card-body">
+            <h5 class="card-title">Lubber Pandhu</h5>
+            <p class="card-text">Sports</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card" style="cursor: pointer">
+          <img
+            src="img/Meiyazhagan.jpg"
+            alt=""/>
+          <div class="card-body">
+            <h5 class="card-title">Meiyazhagan</h5>
+            <p class="card-text">Drama</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card" style="cursor: pointer">
+          <img
+            src="img/Devara - Part 1.jpg"
+            alt=""/>
+          <div class="card-body">
+            <h5 class="card-title">Devara - Part 1</h5>
+            <p class="card-text">Action</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div><footer class="text-center text-lg-start bg-body-tertiary text-muted mt-4">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    </section>
+
+    <!-- Section: Links -->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Book My Show
+                    </h6>
+                    <p>
+                        Your go-to platform for booking movie tickets, finding showtimes, and exploring the latest
+                        films.
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Popular Movies
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Latest Releases</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Upcoming Movies</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Top Rated</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Now Showing</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contact Us</h6>
+                    <p>123 Movie Lane, Cinema City, NY 10012, US</p>
+                    <p>
+                        support@bookmyshow.com
+                    </p>
+                    <p>+1 234 567 8900</p>
+                    <p>+1 234 567 8901</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Book My Show:
+        <a class="text-reset fw-bold" href="https://www.bookmyshow.com/">bookmyshow.com</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+     
+</body>
+</html>
